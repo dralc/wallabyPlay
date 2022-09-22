@@ -4,5 +4,5 @@ module.exports = {
   transform: {
     '^.+\\.[t|j]sx?$': 'babel-jest',
   },
-  testPathIgnorePatterns: ["fixtures", "mocks", "utils"],
+  testPathIgnorePatterns: ["fixtures", "mocks"],
 };
